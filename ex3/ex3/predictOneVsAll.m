@@ -17,7 +17,7 @@ p = zeros(size(X, 1), 1);
 % Add ones to the X data matrix
 X = [ones(m, 1) X];
 
-[and, p] = max(X*all_theta', [], 2);
+[ans, p] = max(X*all_theta', [], 2);
 
 % ====================== YOUR CODE HERE ======================
 % Instructions: Complete the following code to make predictions using
